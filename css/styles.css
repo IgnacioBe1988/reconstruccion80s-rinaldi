@@ -6,9 +6,10 @@
 /* ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ----  */
 
 header {
-  background-color: #460a40;
-  color: #fffe01;
+  background-color: black;
+  color: #f0e860;
   height: 10vh;
+  border-bottom: 0.1rem solid #a81504;
 }
 
 .frase {
@@ -30,17 +31,19 @@ ul li {
 /* CUERPO ---- CUERPO ---- CUERPO ---- CUERPO ---- CUERPO ----  */
 
 .cuerpo {
-  background-color: #e83b36;
+  background-color: black;
   height: 80vh;
 }
 
 .titulo-principal {
-  color: #fffe01;
+  color: #f0e860;
   text-align: center;
   text-decoration: underline;
 }
 
 .imagen-presentacion {
+  display: flex;
+  margin: auto;
   max-width: 80%;
   max-height: 80%;
 }
@@ -48,11 +51,12 @@ ul li {
 /* FOOTER ---- FOOTER ---- FOOTER ---- FOOTER ---- FOOTER ---- */
 
 .footer {
-  background-color: #ff8606;
+  background-color: black;
   text-align: center;
   height: 10vh;
+  border-top: 0.1rem solid #a81504;
 }
 
 .titulo-footer {
-  color: #fffe01;
+  color: #f0e860;
 }
