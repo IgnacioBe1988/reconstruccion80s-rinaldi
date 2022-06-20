@@ -48,6 +48,18 @@ ul li {
   max-height: 80%;
 }
 
+.parrafo-nosotros {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
 /* FOOTER ---- FOOTER ---- FOOTER ---- FOOTER ---- FOOTER ---- */
 
 .footer {
