@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ENCABEZADO */
+
+header {
+  border-bottom: 2px solid black;
+  background-color: rgb(125, 251, 255);
+}
+
+.barra {
+  display: flex;
+}
+
+li {
+  margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
