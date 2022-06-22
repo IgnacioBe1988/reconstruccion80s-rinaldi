@@ -60,6 +60,12 @@ ul li {
   overflow: auto;
 }
 
+.link-redes {
+  text-align: center;
+  margin-top: 5rem;
+  color: #a81504;
+}
+
 .formulario-contacto {
   display: flex;
   flex-direction: column;
