@@ -54,10 +54,7 @@ ul li {
   margin-top: 10%;
 }
 
-.galeria {
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
+.img-carrusel {
 }
 
 .formulario-contacto {
