@@ -54,6 +54,18 @@ ul li {
   margin-top: 10%;
 }
 
+.galeria {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.link-redes {
+  text-align: center;
+  margin-top: 5rem;
+  color: #a81504;
+}
+
 .formulario-contacto {
   display: flex;
   flex-direction: column;
