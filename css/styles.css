@@ -5,7 +5,12 @@
 
 /* ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ----  */
 
-header {
+nav {
+  background-color: #a81504;
+  color: #f0e860;
+}
+
+/* header {
   background-color: black;
   color: #f0e860;
   height: 10vh;
@@ -26,7 +31,7 @@ li {
 
 ul li {
   list-style: none;
-}
+} */
 
 /* CUERPO ---- CUERPO ---- CUERPO ---- CUERPO ---- CUERPO ----  */
 
