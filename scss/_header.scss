@@ -1,0 +1,43 @@
+/* ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ----  */
+
+header {
+  background-color: $color-fondo;
+  color: $color-texto;
+  height: 10vh;
+  border-bottom: 0.1rem solid #a81504;
+
+  .frase {
+    text-align: center;
+  }
+  .barra {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+  }
+  li {
+    margin: auto;
+  }
+}
+
+// header {
+//   background-color: black
+//   color: #f0e860;
+//   height: 10vh;
+//   border-bottom: 0.1rem solid #a81504;
+// }
+
+// .frase {
+//   text-align: center;
+// }
+
+// .barra {
+//   display: flex;
+// }
+
+// li {
+//   margin: auto;
+// }
+
+// ul li {
+//   list-style: none;
+// }
