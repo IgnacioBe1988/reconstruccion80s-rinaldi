@@ -6,44 +6,27 @@
 /* ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ---- ENCABEZADO ----  */
 
 nav {
-  background-color: #a81504;
-  color: #f0e860;
-}
-
-/* header {
   background-color: black;
-  color: #f0e860;
-  height: 10vh;
-  border-bottom: 0.1rem solid #a81504;
+  border-bottom: #a81504 solid 0.1rem;
+  height: 20vh;
 }
 
-.frase {
-  text-align: center;
+nav a {
+  color: #f0e860 !important;
 }
-
-.barra {
-  display: flex;
-}
-
-li {
-  margin: auto;
-}
-
-ul li {
-  list-style: none;
-} */
 
 /* CUERPO ---- CUERPO ---- CUERPO ---- CUERPO ---- CUERPO ----  */
 
 .cuerpo {
   background-color: black;
-  height: 80vh;
+  height: 70vh;
 }
 
 .titulo-principal {
   color: #f0e860;
   text-align: center;
   text-decoration: underline;
+  padding: 20px;
 }
 
 .imagen-presentacion {
@@ -89,6 +72,7 @@ ul li {
   text-align: center;
   height: 10vh;
   border-top: 0.1rem solid #a81504;
+  padding: 20px;
 }
 
 .titulo-footer {
