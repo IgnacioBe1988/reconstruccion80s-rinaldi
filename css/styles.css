@@ -36,11 +36,35 @@ nav a {
   max-height: 80%;
 }
 
+/* PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS */
+
+.cuerpo-nosotros {
+  background-color: #21044c;
+  height: 100%;
+  background-image: url(../images/nosotros.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .parrafo-nosotros {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.parrafo-nosotros2 {
   color: white;
   text-align: center;
   margin-top: 10%;
 }
+
+.cuerpo-nosotros h1 {
+  padding: 10px;
+  color: #f0e860;
+}
+
+/* PAGINA GALERIA - PAGINA GALERIA - PAGINA GALERIA */
 
 .galeria {
   display: flex;
