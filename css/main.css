@@ -1,0 +1,90 @@
+nav {
+  background-color: black;
+  border-bottom: #a81504 solid 0.1rem;
+  height: 20vh;
+}
+nav a {
+  color: #f0e860 !important;
+}
+
+.cuerpo {
+  background-color: black;
+  height: 70vh;
+}
+
+.titulo-principal {
+  color: #f0e860;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.imagen-presentacion {
+  display: flex;
+  margin: auto;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/* PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS */
+.cuerpo-nosotros {
+  background-color: #21044c;
+  height: 100%;
+  background-image: url(../images/nosotros.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.parrafo-nosotros {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.parrafo-nosotros2 {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.cuerpo-nosotros h1 {
+  padding: 10px;
+  color: #f0e860;
+}
+
+.link-redes {
+  text-align: center;
+  margin-top: 5rem;
+  color: #a81504;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 3rem;
+  height: 80%;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  height: 10vh;
+  border-top: 0.1rem solid #a81504;
+  padding: 20px;
+}
+
+.titulo-footer {
+  color: #f0e860;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
