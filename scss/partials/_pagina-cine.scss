@@ -1,0 +1,36 @@
+body {
+  background-color: black !important;
+}
+
+.titulo-principal {
+  color: #f0e860;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+section {
+  color: white;
+
+  .articulo-cine1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: auto;
+      height: 150px;
+    }
+    div {
+      padding: 2rem;
+      @include color-letra(#f0e860);
+    }
+  }
+}
+
+.articulo-cine2 {
+  @extend .articulo-cine1;
+}
+
+.articulo-cine3 {
+  @extend .articulo-cine1;
+}

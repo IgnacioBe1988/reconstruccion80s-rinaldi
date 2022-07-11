@@ -11,3 +11,7 @@ $redes: (
     background-color: $color;
   }
 }
+
+@mixin color-letra($color) {
+  color: $color;
+}

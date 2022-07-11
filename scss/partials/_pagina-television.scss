@@ -1,5 +1,17 @@
-.link-redes {
-  text-align: center;
-  margin-top: 5rem;
-  color: #a81504;
+.cuerpo-television {
+  height: 100%;
+}
+
+.articulo-cine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: auto;
+    height: 150px;
+  }
+  div {
+    padding: 2rem;
+    @include color-letra(#f0e860);
+  }
 }

@@ -21,11 +21,10 @@ nav a {
 
 .cuerpo {
   background-color: black;
-  height: 80vh;
+  padding: 0% !important;
 }
 
 .titulo-principal {
-  color: #f0e860;
   text-align: center;
   text-decoration: underline;
   padding: 20px;
@@ -34,18 +33,16 @@ nav a {
 .imagen-presentacion {
   display: flex;
   margin: auto;
-  max-width: 80%;
-  max-height: 80%;
 }
 
-/* PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS */
 .cuerpo-nosotros {
-  background-color: #21044c;
-  height: 100%;
+  background-color: #21044b;
   background-image: url(../images/nosotros.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 80vh;
+  padding: 0px;
 }
 
 .parrafo-nosotros {
@@ -65,10 +62,50 @@ nav a {
   color: #f0e860;
 }
 
-.link-redes {
+body {
+  background-color: black !important;
+}
+
+.titulo-principal {
+  color: #f0e860;
   text-align: center;
-  margin-top: 5rem;
-  color: #a81504;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+section {
+  color: white;
+}
+section .articulo-cine1, section .articulo-cine3, section .articulo-cine2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .articulo-cine1 img, section .articulo-cine3 img, section .articulo-cine2 img {
+  width: auto;
+  height: 150px;
+}
+section .articulo-cine1 div, section .articulo-cine3 div, section .articulo-cine2 div {
+  padding: 2rem;
+  color: #f0e860;
+}
+
+.cuerpo-television {
+  height: 100%;
+}
+
+.articulo-cine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.articulo-cine img {
+  width: auto;
+  height: 150px;
+}
+.articulo-cine div {
+  padding: 2rem;
+  color: #f0e860;
 }
 
 .cuerpo-contacto {
