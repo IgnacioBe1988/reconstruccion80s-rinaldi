@@ -5,8 +5,11 @@
 
 .titulo-principal {
   text-align: center;
-  text-decoration: underline;
   padding: 20px;
+  background: linear-gradient(to bottom, red, $color-letras);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .imagen-presentacion {

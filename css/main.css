@@ -7,6 +7,10 @@ nav a {
   color: #f0e860 !important;
 }
 
+@font-face {
+  font-family: lazer84;
+  src: url(/font/Lazer84.ttf.ttf);
+}
 .btn-twitter {
   background-color: #55acee;
 }
@@ -26,8 +30,11 @@ nav a {
 
 .titulo-principal {
   text-align: center;
-  text-decoration: underline;
   padding: 20px;
+  background: linear-gradient(to bottom, red, #f0e860);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .imagen-presentacion {
@@ -163,6 +170,7 @@ section button {
 * {
   margin: 0;
   padding: 0;
+  font-family: lazer84;
 }
 
 /*# sourceMappingURL=main.css.map */
