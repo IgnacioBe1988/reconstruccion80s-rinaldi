@@ -1,0 +1,47 @@
+.body-musica {
+  background-image: url(../../images/fondo-musica.jpg);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: lazer84;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(to top, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+  }
+}
+
+.tarjeta-musica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 12px;
+  font-size: small;
+  color: white;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .imagen-musica {
+    width: 300px;
+  }
+
+  .descripcion-musica {
+    margin: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

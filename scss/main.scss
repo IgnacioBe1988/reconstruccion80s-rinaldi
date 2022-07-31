@@ -1,14 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: lazer84;
+}
+
 @import "./partials/header";
 @import "./partials/variables";
-@import "./partials/cuerpo";
-@import "./partials/pagina-nosotros";
+@import "./partials/pagina-principal";
+@import "./partials/pagina-musica";
 @import "./partials/pagina-cine";
 @import "./partials/pagina-television";
 @import "./partials/pagina-contacto";
 @import "./partials/footer";
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: lazer84;
-}

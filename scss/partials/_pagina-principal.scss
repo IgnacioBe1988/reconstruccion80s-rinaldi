@@ -1,0 +1,28 @@
+.body-principal {
+  background-image: url(../../images/fondo1.png);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .cuerpo-principal {
+    height: 75vh;
+
+    .subtitulo-principal {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to bottom, white, white);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.imagen-principal {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}

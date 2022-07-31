@@ -1,10 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   background-color: black;
   border-bottom: #a81504 solid 0.1rem;
-  height: 10vh;
+  height: 15vh;
+  font-family: lazer84;
 }
-nav a {
+
+a {
   color: #f0e860 !important;
+}
+
+ul a:hover {
+  border-bottom: solid 0.3rem #f0e860;
+  transform: translate(0rem, -0.5rem);
+  transition: 0.25s;
 }
 
 @font-face {
@@ -23,54 +37,98 @@ nav a {
   background-color: #c25e30;
 }
 
-.cuerpo {
-  background-color: black;
-  padding: 0% !important;
+.body-principal {
+  background-image: url(../../images/fondo1.png);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
-.titulo-principal {
+.body-principal .cuerpo-principal {
+  height: 75vh;
+}
+.body-principal .cuerpo-principal .subtitulo-principal {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to bottom, red, #f0e860);
+  background: linear-gradient(to bottom, white, white);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.imagen-presentacion {
-  display: flex;
+.imagen-principal {
+  width: 70%;
   margin: auto;
+  display: flex;
+  align-items: center;
 }
 
-.cuerpo-nosotros {
-  background-color: #21044b;
-  background-image: url(../images/nosotros.jpg);
-  background-position: center;
+.body-musica {
+  background-image: url(../../images/fondo-musica.jpg);
+  width: 100%;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 80vh;
-  padding: 0px;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
-.parrafo-nosotros {
+.body-musica h1 {
   color: white;
   text-align: center;
-  padding: 20px;
+  font-family: lazer84;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(to top, red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
 }
 
-.parrafo-nosotros2 {
+.tarjeta-musica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 12px;
+  font-size: small;
+  color: white;
+}
+.tarjeta-musica h1 {
+  font-size: 2rem;
+}
+.tarjeta-musica .imagen-musica {
+  width: 300px;
+}
+.tarjeta-musica .descripcion-musica {
+  margin: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-cine {
+  background-image: url(../../images/cine1.jpg);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.body-cine h1 {
   color: white;
   text-align: center;
-  margin-top: 10%;
-}
-
-.cuerpo-nosotros h1 {
-  padding: 10px;
-  color: #f0e860;
-}
-
-body {
-  background-color: black !important;
+  font-family: lazer84;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  background: linear-gradient(to top, red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .titulo-principal {
@@ -80,21 +138,61 @@ body {
   padding: 20px;
 }
 
-section {
-  color: white;
+.contenedor-cuerpo {
+  display: flex;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
 }
-section .articulo-cine1, section .articulo-cine3, section .articulo-cine2 {
+.contenedor-cuerpo .campo1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-cuerpo .campo2 h4 {
+  margin: 2rem;
+  text-decoration: overline;
+}
+.contenedor-cuerpo article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-cuerpo img {
+  width: 350px;
+  margin: 3rem;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-section .articulo-cine1 img, section .articulo-cine3 img, section .articulo-cine2 img {
-  width: auto;
-  height: 150px;
+
+.body-television {
+  background-image: url(../../images/retro-television.jpg);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-section .articulo-cine1 div, section .articulo-cine3 div, section .articulo-cine2 div {
-  padding: 2rem;
-  color: #f0e860;
+.body-television h1 {
+  color: white;
+  text-align: center;
+  font-family: lazer84;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  background: linear-gradient(to top, red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.body-television article {
+  background: linear-gradient(to top, red, black);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1rem;
 }
 
 .cuerpo-television {
@@ -118,20 +216,6 @@ section .articulo-cine1 div, section .articulo-cine3 div, section .articulo-cine
 .cuerpo-contacto {
   background-color: black;
   height: 80vh;
-}
-
-.titulo-principal {
-  color: #f0e860;
-  text-align: center;
-  text-decoration: underline;
-  padding: 20px;
-}
-
-.imagen-presentacion {
-  display: flex;
-  margin: auto;
-  max-width: 80%;
-  max-height: 80%;
 }
 
 .formulario-contacto {
@@ -162,15 +246,10 @@ section button {
   height: 10vh;
   border-top: 0.1rem solid #a81504;
   padding: 20px;
+  font-family: lazer84;
 }
 .footer .titulo-footer {
   color: #f0e860;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: lazer84;
 }
 
 /*# sourceMappingURL=main.css.map */
