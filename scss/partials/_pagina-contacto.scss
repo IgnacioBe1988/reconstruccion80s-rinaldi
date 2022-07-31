@@ -1,6 +1,20 @@
 .cuerpo-contacto {
   background-color: black;
   height: 80vh;
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: lazer84;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    background: linear-gradient(to top, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .formulario-contacto {
@@ -8,7 +22,7 @@
   flex-direction: column;
   color: aliceblue;
   text-align: center;
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 
@@ -17,6 +31,7 @@ section {
   justify-content: center;
   margin: 2rem;
   justify-content: space-around;
+
   button {
     padding-right: 3rem;
     padding-left: 3rem;
