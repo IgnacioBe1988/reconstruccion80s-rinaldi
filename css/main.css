@@ -10,12 +10,10 @@ nav {
   height: 15vh;
   font-family: lazer84;
 }
-
-a {
+nav a {
   color: #f0e860 !important;
 }
-
-ul a:hover {
+nav ul a:hover {
   border-bottom: solid 0.3rem #f0e860;
   transform: translate(0rem, -0.5rem);
   transition: 0.25s;
@@ -48,6 +46,12 @@ ul a:hover {
 .body-principal .cuerpo-principal {
   height: 75vh;
 }
+.body-principal .cuerpo-principal .imagen-principal {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
 .body-principal .cuerpo-principal .subtitulo-principal {
   text-align: center;
   padding: 20px;
@@ -55,13 +59,7 @@ ul a:hover {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.imagen-principal {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  align-items: center;
+  font-family: lazer84;
 }
 
 .body-musica {
@@ -236,7 +234,7 @@ ul a:hover {
   flex-direction: column;
   color: aliceblue;
   text-align: center;
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 

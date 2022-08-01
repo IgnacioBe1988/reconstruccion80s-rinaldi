@@ -9,6 +9,13 @@
   .cuerpo-principal {
     height: 75vh;
 
+    .imagen-principal {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+    }
+
     .subtitulo-principal {
       text-align: center;
       padding: 20px;
@@ -16,13 +23,7 @@
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
+      font-family: lazer84;
     }
   }
-}
-
-.imagen-principal {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  align-items: center;
 }
